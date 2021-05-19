@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">F1app</string>
+    <string name="title_activity_stats">Stats</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_twitter">Twitter</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_races">Races</string>
+    <string name="title_activity_choose_result_type">ChooseResultType</string>
+    <string name="title_activity_session_result">SessionResult</string>
+    <string name="title_activity_standings_year">StandingsYear</string>
+    <string name="title_activity_stats_choice">StatsChoice</string>
+    <string name="title_activity_standings_display">StandingsDisplay</string>
+    <string name="title_activity_stat_comparator">StatComparator</string>
+    <string name="title_activity_stat_display">StatDisplay</string>
+</resources>
