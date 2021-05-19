@@ -1,0 +1,134 @@
+com/example/f1app/Second12Fragment.java
+ com.example.f1app.Second12Fragment
+ com.example.f1app.Second12Fragment$1
+com/example/f1app/Second11Fragment.java
+ com.example.f1app.Second11Fragment
+ com.example.f1app.Second11Fragment$1
+com/example/f1app/ChooseResultType.java
+ com.example.f1app.ChooseResultType
+ com.example.f1app.ChooseResultType$1
+com/example/f1app/Second13Fragment.java
+ com.example.f1app.Second13Fragment
+ com.example.f1app.Second13Fragment$1
+com/example/f1app/First10Fragment.java
+ com.example.f1app.First10Fragment
+ com.example.f1app.First10Fragment$1
+com/example/f1app/Second10Fragment.java
+ com.example.f1app.Second10Fragment
+ com.example.f1app.Second10Fragment$1
+com/example/f1app/Races.java
+ com.example.f1app.Races
+ com.example.f1app.Races$1
+ com.example.f1app.Races$2
+com/example/f1app/First5Fragment.java
+ com.example.f1app.First5Fragment
+ com.example.f1app.First5Fragment$1
+com/example/f1app/First11Fragment.java
+ com.example.f1app.First11Fragment
+ com.example.f1app.First11Fragment$1
+com/example/f1app/First13Fragment.java
+ com.example.f1app.First13Fragment
+ com.example.f1app.First13Fragment$1
+com/example/f1app/First6Fragment.java
+ com.example.f1app.First6Fragment
+ com.example.f1app.First6Fragment$1
+com/example/f1app/F1Calendar.java
+ com.example.f1app.F1Calendar
+ com.example.f1app.F1Calendar$1
+com/example/f1app/First8Fragment.java
+ com.example.f1app.First8Fragment
+ com.example.f1app.First8Fragment$1
+com/example/f1app/First7Fragment.java
+ com.example.f1app.First7Fragment
+ com.example.f1app.First7Fragment$1
+com/example/f1app/Twitter.java
+ com.example.f1app.Twitter
+com/example/f1app/First12Fragment.java
+ com.example.f1app.First12Fragment
+ com.example.f1app.First12Fragment$1
+com/example/f1app/News.java
+ com.example.f1app.News
+ com.example.f1app.News$1
+ com.example.f1app.News$2
+com/example/f1app/Results.java
+ com.example.f1app.Results
+ com.example.f1app.Results$1
+ com.example.f1app.Results$2
+com/example/f1app/StandingsDisplay.java
+ com.example.f1app.StandingsDisplay
+ com.example.f1app.StandingsDisplay$1
+com/example/f1app/First4Fragment.java
+ com.example.f1app.First4Fragment
+ com.example.f1app.First4Fragment$1
+com/example/f1app/First3Fragment.java
+ com.example.f1app.First3Fragment
+ com.example.f1app.First3Fragment$1
+com/example/f1app/First2Fragment.java
+ com.example.f1app.First2Fragment
+ com.example.f1app.First2Fragment$1
+com/example/f1app/FirstFragment.java
+ com.example.f1app.FirstFragment
+ com.example.f1app.FirstFragment$1
+com/example/f1app/StatsChoice.java
+ com.example.f1app.StatsChoice
+ com.example.f1app.StatsChoice$1
+com/example/f1app/SessionResult.java
+ com.example.f1app.SessionResult
+ com.example.f1app.SessionResult$1
+com/example/f1app/Second8Fragment.java
+ com.example.f1app.Second8Fragment
+ com.example.f1app.Second8Fragment$1
+com/example/f1app/SecondFragment.java
+ com.example.f1app.SecondFragment
+ com.example.f1app.SecondFragment$1
+com/example/f1app/StandingsYear.java
+ com.example.f1app.StandingsYear
+ com.example.f1app.StandingsYear$1
+ com.example.f1app.StandingsYear$2
+com/example/f1app/Second7Fragment.java
+ com.example.f1app.Second7Fragment
+ com.example.f1app.Second7Fragment$1
+com/example/f1app/BuildConfig.java
+ com.example.f1app.BuildConfig
+com/example/f1app/MainActivity.java
+ com.example.f1app.MainActivity
+ com.example.f1app.MainActivity$1
+ com.example.f1app.MainActivity$2
+ com.example.f1app.MainActivity$3
+ com.example.f1app.MainActivity$4
+ com.example.f1app.MainActivity$5
+ com.example.f1app.MainActivity$6
+com/example/f1app/Stats.java
+ com.example.f1app.Stats
+ com.example.f1app.Stats$1
+com/example/f1app/Second9Fragment.java
+ com.example.f1app.Second9Fragment
+ com.example.f1app.Second9Fragment$1
+com/example/f1app/First9Fragment.java
+ com.example.f1app.First9Fragment
+ com.example.f1app.First9Fragment$1
+com/example/f1app/Second2Fragment.java
+ com.example.f1app.Second2Fragment
+ com.example.f1app.Second2Fragment$1
+com/example/f1app/NewsFeed.java
+ com.example.f1app.NewsFeed
+com/example/f1app/Second5Fragment.java
+ com.example.f1app.Second5Fragment
+ com.example.f1app.Second5Fragment$1
+com/example/f1app/Second4Fragment.java
+ com.example.f1app.Second4Fragment
+ com.example.f1app.Second4Fragment$1
+com/example/f1app/Second3Fragment.java
+ com.example.f1app.Second3Fragment
+ com.example.f1app.Second3Fragment$1
+com/example/f1app/Second6Fragment.java
+ com.example.f1app.Second6Fragment
+ com.example.f1app.Second6Fragment$1
+com/example/f1app/StatDisplay.java
+ com.example.f1app.StatDisplay
+ com.example.f1app.StatDisplay$1
+ com.example.f1app.StatDisplay$2
+com/example/f1app/StatComparator.java
+ com.example.f1app.StatComparator
+ com.example.f1app.StatComparator$1
+ com.example.f1app.StatComparator$2
