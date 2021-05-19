@@ -1,0 +1,68 @@
+package com.example.f1app;
+
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+public class StatsChoice extends AppCompatActivity {
+
+    //LIST OF ARRAY STRINGS WHICH WILL SERVE AS LIST ITEMS
+    private static ArrayList<String> listItems=new ArrayList<String>();
+
+    //DEFINING A STRING ADAPTER WHICH WILL HANDLE THE DATA OF THE LISTVIEW
+    private static ArrayAdapter<String> adapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_stats_choice);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        listItems.clear();
+        ListView listView= findViewById(R.id.typeChoiceListView);
+        String yearId = getIntent().getStringExtra("YEAR_ID");
+        System.out.println(yearId);
+
+
+        adapter=new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,
+                listItems);
+        listView.setAdapter(adapter);
+        listItems.add("Driver's standings");
+        listItems.add("Constructor's standings");
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                Intent intent = new Intent(getBaseContext(), StandingsDisplay.class);
+                //System.out.println(position);
+                //System.out.println(listItems.get(position));
+                intent.putExtra("YEAR_ID", yearId);
+                intent.putExtra("CHOICE_ID", listItems.get(position).substring(0,1));
+
+                startActivity(intent);
+
+            }
+        });
+
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        adapter.notifyDataSetChanged();
+    }
+}
