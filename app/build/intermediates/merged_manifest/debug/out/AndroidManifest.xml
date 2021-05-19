@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.f1app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.F1app"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.f1app.StatDisplay"
+            android:label="@string/title_activity_stat_display"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.StatComparator"
+            android:label="@string/title_activity_stat_comparator"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.StandingsDisplay"
+            android:label="@string/title_activity_standings_display"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.StatsChoice"
+            android:label="@string/title_activity_stats_choice"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.StandingsYear"
+            android:label="@string/title_activity_standings_year"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.SessionResult"
+            android:label="@string/title_activity_session_result"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.ChooseResultType"
+            android:label="@string/title_activity_choose_result_type"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.Races"
+            android:label="@string/title_activity_races"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.News"
+            android:label="@string/title_activity_news"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.Twitter"
+            android:label="@string/title_activity_twitter"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.F1Calendar"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.Results"
+            android:label="@string/title_activity_results"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity
+            android:name="com.example.f1app.Stats"
+            android:label="@string/title_activity_stats"
+            android:theme="@style/Theme.F1app.NoActionBar" />
+        <activity android:name="com.example.f1app.NewsFeed" />
+        <activity android:name="com.example.f1app.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
