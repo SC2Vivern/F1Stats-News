@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.f1app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:7:5-75:19
+14        android:allowBackup="true"
+14-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\KamilVivern\.gradle\caches\transforms-2\files-2.1\e601daed4ba62929db8b322b2974c8f8\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.F1app"
+22-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:13:9-43
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:14:9-44
+24        <activity
+24-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:15:9-18:71
+25            android:name="com.example.f1app.StatDisplay"
+25-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:16:13-40
+26            android:label="@string/title_activity_stat_display"
+26-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:17:13-64
+27            android:theme="@style/Theme.F1app.NoActionBar" />
+27-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:18:13-59
+28        <activity
+28-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:19:9-22:62
+29            android:name="com.example.f1app.StatComparator"
+29-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:20:13-43
+30            android:label="@string/title_activity_stat_comparator"
+30-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:21:13-67
+31            android:theme="@style/Theme.F1app.NoActionBar" />
+31-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:22:13-59
+32        <activity
+32-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:23:9-26:62
+33            android:name="com.example.f1app.StandingsDisplay"
+33-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:24:13-45
+34            android:label="@string/title_activity_standings_display"
+34-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:25:13-69
+35            android:theme="@style/Theme.F1app.NoActionBar" />
+35-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:26:13-59
+36        <activity
+36-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:27:9-30:62
+37            android:name="com.example.f1app.StatsChoice"
+37-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:28:13-40
+38            android:label="@string/title_activity_stats_choice"
+38-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:29:13-64
+39            android:theme="@style/Theme.F1app.NoActionBar" />
+39-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:30:13-59
+40        <activity
+40-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:31:9-34:62
+41            android:name="com.example.f1app.StandingsYear"
+41-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:32:13-42
+42            android:label="@string/title_activity_standings_year"
+42-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:33:13-66
+43            android:theme="@style/Theme.F1app.NoActionBar" />
+43-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:34:13-59
+44        <activity
+44-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:35:9-38:62
+45            android:name="com.example.f1app.SessionResult"
+45-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:36:13-42
+46            android:label="@string/title_activity_session_result"
+46-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:37:13-66
+47            android:theme="@style/Theme.F1app.NoActionBar" />
+47-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:38:13-59
+48        <activity
+48-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:39:9-42:62
+49            android:name="com.example.f1app.ChooseResultType"
+49-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:40:13-45
+50            android:label="@string/title_activity_choose_result_type"
+50-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:41:13-70
+51            android:theme="@style/Theme.F1app.NoActionBar" />
+51-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:42:13-59
+52        <activity
+52-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:43:9-46:62
+53            android:name="com.example.f1app.Races"
+53-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:44:13-34
+54            android:label="@string/title_activity_races"
+54-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:45:13-57
+55            android:theme="@style/Theme.F1app.NoActionBar" />
+55-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:46:13-59
+56        <activity
+56-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:47:9-50:62
+57            android:name="com.example.f1app.News"
+57-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:48:13-33
+58            android:label="@string/title_activity_news"
+58-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:49:13-56
+59            android:theme="@style/Theme.F1app.NoActionBar" />
+59-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:50:13-59
+60        <activity
+60-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:51:9-54:62
+61            android:name="com.example.f1app.Twitter"
+61-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:52:13-36
+62            android:label="@string/title_activity_twitter"
+62-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:53:13-59
+63            android:theme="@style/Theme.F1app.NoActionBar" />
+63-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:54:13-59
+64        <activity
+64-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:55:9-58:62
+65            android:name="com.example.f1app.F1Calendar"
+65-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:56:13-39
+66            android:label="@string/title_activity_calendar"
+66-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:57:13-60
+67            android:theme="@style/Theme.F1app.NoActionBar" />
+67-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:58:13-59
+68        <activity
+68-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:59:9-62:62
+69            android:name="com.example.f1app.Results"
+69-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:60:13-36
+70            android:label="@string/title_activity_results"
+70-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:61:13-59
+71            android:theme="@style/Theme.F1app.NoActionBar" />
+71-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:62:13-59
+72        <activity
+72-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:63:9-66:62
+73            android:name="com.example.f1app.Stats"
+73-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:64:13-34
+74            android:label="@string/title_activity_stats"
+74-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:65:13-57
+75            android:theme="@style/Theme.F1app.NoActionBar" />
+75-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:66:13-59
+76        <activity android:name="com.example.f1app.NewsFeed" />
+76-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:67:9-46
+76-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:67:19-43
+77        <activity android:name="com.example.f1app.MainActivity" >
+77-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:68:9-74:20
+77-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:68:19-47
+78            <intent-filter>
+78-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:69:13-73:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:70:17-69
+79-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:70:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:72:17-77
+81-->C:\Users\KamilVivern\AndroidStudioProjects\F1app\app\src\main\AndroidManifest.xml:72:27-74
+82            </intent-filter>
+83        </activity>
+84    </application>
+85
+86</manifest>
